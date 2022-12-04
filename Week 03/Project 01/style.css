@@ -1,0 +1,234 @@
+/* You can not modify anything in the HTML */
+/* You can only modify the CSS file */
+*{
+    margin: 2px;
+    padding: 0px;
+}
+.navbar-container{
+    display:flex;
+    margin: 3px;
+    padding: 12px;
+    /* border: 2px solid black; */
+    /* border-radius: 1px; */
+    gap: 60px;
+}
+.list{
+    display: flex;
+    list-style-type: none;
+    justify-content: center;
+    gap: 10px;
+    color: rgb(120, 124, 125);
+    padding-top: 3px;
+}
+.list-item:hover{
+    color: black;
+    cursor: pointer;
+}
+.nav-button{
+  background-color:rgb(106, 83, 188); /* Green */
+  border: none;
+  color: white;
+  padding: 7px;
+  text-align: center;
+  /* text-decoration: none; */
+  /* display: inline-block; */
+  margin: 4px 2px;
+  cursor: pointer;
+  border-radius: 8px;
+}
+
+.button-group{
+    margin:15px;
+    position: absolute;
+    right: 100px;
+    top: 3px;
+
+}
+
+.heading-text{
+    font-size: 55px;
+    color: rgb(44, 21, 66);
+    /* text-align: center; */
+    margin-top: 20px;
+  margin-left: 30px;
+}
+.description{
+    font-size: 16px;
+    color: rgb(132, 132, 132);
+    /* text-align: center; */
+    margin-top: 20px;
+  margin-left: 30px;
+}
+#man{
+    color: blueviolet;
+}
+.btn{
+    width: 140px;
+    height: 40px;
+  background-color:rgb(106, 83, 188); /* Green */
+  border: none;
+  color: white;
+  padding: 7px;
+  text-align: center;
+  /* text-decoration: none; */
+  /* display: inline-block; */
+  margin-top: 30px;
+  margin-left: 40px;
+  cursor: pointer;
+  border-radius: 8px;
+
+}
+.banner-container{
+/* border: 1px solid black; */
+display: flex;
+
+}
+.textw{
+    display: flex;
+    flex-direction: column;
+    justify-content:center ;
+    
+}
+.btn:hover{
+    background-color: #fff;
+    color:violet;
+}
+.nav-button:hover{
+    background-color: #fff;
+    color:violet;
+}
+
+
+/* '''''''''''''''''''''''''''''''''''''''''''''''''''' */
+.waviy {
+  position: relative;
+  -webkit-box-reflect: below -20px linear-gradient(transparent, rgba(0,0,0,.2));
+  font-size: 60px;
+}
+.waviy span {
+  font-family: 'Alfa Slab One', cursive;
+  position: relative;
+  display: inline-block;
+  color: rgb(44, 21, 66);
+  text-transform: uppercase;
+  animation: waviy 1s infinite;
+  animation-delay: calc(.1s * var(--i));
+  
+}
+@keyframes waviy {
+  0%,40%,100% {
+    transform: translateY(0)
+  }
+  20% {
+    transform: translateY(-20px)
+  }
+}
+
+.flexM{
+    box-sizing: border-box;
+    display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 10vh;
+  width: 100vw;
+}
+
+h1 {
+  color: #333;
+  font-family: tahoma;
+  font-size: 3rem;
+  font-weight: 100;
+  line-height: 1.5;
+  text-transform: uppercase;
+  white-space: nowrap;
+  overflow: hidden;
+  position: relative;
+  width: 550px;
+}
+
+h1 span {
+  font-size: 40px;
+  margin-left: 40px;
+}
+
+.message {
+  background-color: yellow;
+  color: #333;
+  display: block;
+  font-weight: 900;
+  overflow: hidden;
+  position: absolute;
+  padding-left: 0.5rem;
+  top: 0.2rem;
+  left: 270px;
+  animation: openclose 5s ease-in-out infinite;
+}
+
+.word1, .word2, .word3 {
+  font-family: tahoma;
+}
+
+@keyframes openclose {
+  0% {
+    top: 0.2rem;
+    width: 0;
+  }
+  5% {
+    width: 0;
+  }
+  15% {
+    width: 230px;
+  }
+  30% {
+    top: 0.2rem;
+    width: 230px;
+  }
+  33% {
+    top: 0.2rem;
+    width: 0;
+  }
+  35% {
+    top: 0.2rem;
+    width: 0;
+  }
+  38% {
+    top: -4.5rem;
+    
+  }
+  48% {
+    top: -4.5rem;
+    width: 190px;
+  }
+  62% {
+    top: -4.5rem;
+    width: 190px;
+  }
+  66% {
+    top: -4.5rem;
+    width: 0;
+    text-indent: 0;
+  }
+  71% {
+    top: -9rem;
+    width: 0;
+    text-indent: 5px;
+  }
+  86% {
+    top: -9rem;
+    width: 285px;
+  }
+  95% {
+    top: -9rem;
+    width: 285px;
+  }
+  98% {
+    top: -9rem;
+    width: 0;
+    text-indent: 5px;
+  }
+  100% {
+    top: 0;
+    width: 0;
+    text-indent: 0;
+  }
+}
