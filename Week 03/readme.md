@@ -6,7 +6,7 @@
 
 ### Output
 
-![Project 1](./Project%2001/output.png)
+https://week1-proj1.netlify.app/
 
 - Make HTML and CSS Again.
 
