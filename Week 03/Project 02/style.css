@@ -1,2 +1,92 @@
-/* You can not modify anything in the HTML */
-/* You can only modify the CSS file */
+body{
+    background-image: url("./assets/bg.png");
+}
+
+*{
+    margin: 0;
+    padding: 0;
+    
+}
+.navbar{
+    display:flex;
+    border: 2px solid black;
+    background-color:black;
+    gap:80px;
+   
+}
+#logo{
+    margin: 25px ;
+}
+.list{
+    display:flex;
+    gap:50px;
+    color: white;
+    list-style-type: none;
+    padding-top: 3px;
+    justify-content: center;
+    margin-top: 30px;
+    font-size:17px;
+    font-family: 'Lato', sans-serif;
+    
+
+    
+}
+.list-item:hover{
+    color: rgb(189, 0, 206);
+    cursor: pointer;
+}
+.button-small{
+    
+    font-family: 'Lato', sans-serif;
+    display: flex;
+    margin-top: 30px;
+    width: 120px;
+    height: 30px;
+    justify-items: center;
+    justify-content: center;
+    font-weight: bold;
+    background-color: rgb(101, 0, 168);
+    color: white;
+    /* text-align: center; */
+
+    
+}
+.button-small:hover{
+     background-color: rgb(147, 0, 160);
+    cursor: pointer;
+}
+
+.hero{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top: 100px;
+  
+}
+.hero-description{
+    margin-top: 10px;
+    font-size: 25px;
+    font-family: 'Nerko One', cursive;
+}
+.hero-heading{
+    color: aliceblue;
+    font-size: 80px;
+    font-family: 'Zen Dots', cursive;
+    margin-left: 160px;
+}
+.button-large{
+    margin-top: 30px;
+    width: 200px;
+    height: 40px;
+    background-color:rgb(147, 0, 160);
+    font-size: large;
+    color: white;
+    
+    
+}
+.button-large:hover{
+    color:white;
+    cursor: pointer;
+    background-color: rgb(189, 0, 206);
+}
