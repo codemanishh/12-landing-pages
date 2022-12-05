@@ -15,7 +15,7 @@ body{
    
 }
 #logo{
-    margin: 25px ;
+    margin: 25px;
 }
 .list{
     display:flex;
@@ -89,4 +89,10 @@ body{
     color:white;
     cursor: pointer;
     background-color: rgb(189, 0, 206);
+}
+.line{
+color: white;
+font-size: 40px;
+font-weight: 1px;
+margin-top: 10px;
 }
