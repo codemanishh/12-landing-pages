@@ -1,6 +1,6 @@
 ## Full Stack JavaScript 2.0
 
-# SATURDAY!
+# SATURDAY!Cancel changes
 
 ## Project 1
 visi on the website by clicking the link below
@@ -18,7 +18,7 @@ https://week1-proj1.netlify.app/
 
 ## Project 2
 
-### Output
+### Output link of my output [https://lnkd.in/gHkSgK3r](https://week-1-proj-2.netlify.app/)
 
 ![Project 2](./Project%2002/output.png)
 
