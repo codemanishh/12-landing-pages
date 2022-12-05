@@ -96,3 +96,6 @@ font-size: 40px;
 font-weight: 1px;
 margin-top: 10px;
 }
+.button-group{
+    display:inline;
+}
