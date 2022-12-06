@@ -28,7 +28,7 @@ https://week1-proj1.netlify.app/
 
 ## Project 3
 
-### Output
+### Output Output link of my output https://week-1-project-3.netlify.app/
 
 ![Project 1](./Project%2003/output.png)
 
