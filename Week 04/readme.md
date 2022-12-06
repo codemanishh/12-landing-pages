@@ -4,7 +4,7 @@
 
 ## Project 1
 
-### Output
+### Output link of project is https://week-4-project-1.netlify.app/
 
 ![Project 1](./Project%201/output.png)
 
