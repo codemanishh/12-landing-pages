@@ -1,0 +1,113 @@
+.first-div{
+    display: flex;
+    flex-direction: row;
+    gap: 500px;
+    margin-top: 25px;
+    margin-left: 90px;
+}
+
+.list{
+    display: flex;
+    flex-direction: row;
+    gap: 50px;
+    list-style: none;
+    font-family: 'Fragment Mono', monospace;
+    font-weight: bolder;
+    margin-top: 8px;
+
+
+}
+.list-item:hover{
+    color:  #dc0000;
+    cursor:pointer;
+}
+
+.second-div{
+    display: grid;
+    grid-template-columns: 50% 50%;
+}
+.protionA{
+    background-image: url('./images/stethoscope.png');
+    background-repeat: no-repeat;
+    height: 500px;
+    background-size: contain;
+    display: flex;
+    /* margin-left: 400px; */
+
+}
+.protionA{
+    display: flex;
+    /* justify-content: center; */
+    /* align-items: center; */
+    flex-direction: column;
+    margin-left: 40px;
+    margin-top: 40px;
+}
+.button{
+    padding-left: px;
+    /* padding-right: 40px; */
+   
+    
+}
+.button-area{
+    height: 40px;
+    width: 200px;
+    background-color: #539c60;
+    color: #ffffff;
+    border: 2px solid rgb(222, 222, 222);
+    border-radius: 20px;
+    font-family: 'Exo 2', sans-serif;
+    font-weight: bolder;
+    margin-top: 40px;
+}
+.button-area:hover{
+    background-color: #ffffff;
+    color: #539c60;
+    cursor:pointer;
+}
+.quote{
+    font-family: 'Source Serif Pro', serif;
+    font-size: 80px;
+}
+.quote-two{
+    color: rgb(154, 139, 119);
+    display: block;
+    /* text-align: center; */
+}
+.btn-mouse{
+    display: flex;
+    flex-direction: row;
+    gap: 400px;
+
+}
+.mouse{
+    display: flex;
+    margin-top: 40px;
+}
+.choda-logoB{
+    display: flex;
+    margin-left: 600px;
+}
+.portionB{
+    position: relative;
+    height: 500px;
+    margin-top:30px ;
+    margin-left: 270px;
+}
+.imgone{
+    position: absolute;
+    /* margin-bottom: px; */
+    z-index: 88;
+    
+
+}
+.imgtwo{
+    position: absolute;
+    margin-top: 160px;
+    
+}
+.imgthree{
+    position: relative;
+    margin-top: 190px;
+    margin-left: 130px;    
+}
