@@ -1,8 +1,16 @@
+*{
+    margin: 0;
+    padding: 0;
+    
+}
+.hole{
+    background-color: rgb(229, 255, 215);
+}
 .first-div{
     display: flex;
     flex-direction: row;
     gap: 500px;
-    margin-top: 25px;
+    margin-top: 0px;
     margin-left: 90px;
 }
 
@@ -29,7 +37,7 @@
 .protionA{
     background-image: url('./images/stethoscope.png');
     background-repeat: no-repeat;
-    height: 500px;
+    height: 600px;
     background-size: contain;
     display: flex;
     /* margin-left: 400px; */
@@ -89,6 +97,7 @@
     margin-left: 600px;
 }
 .portionB{
+ 
     position: relative;
     height: 500px;
     margin-top:30px ;
@@ -103,11 +112,11 @@
 }
 .imgtwo{
     position: absolute;
-    margin-top: 160px;
+    margin-top: 120px;
     
 }
 .imgthree{
     position: relative;
-    margin-top: 190px;
-    margin-left: 130px;    
+    margin-top: 140px;
+    margin-left: 30px;    
 }
