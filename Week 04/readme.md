@@ -14,7 +14,7 @@
 
 ## Project 2
 
-### Output
+### Output  link of project is  https://week-4-project-2.netlify.app/
 
 ![Project 2](./Project%202/output.png)
 
@@ -24,7 +24,7 @@
 
 ## Project 3
 
-### Output
+### Output link of project is  https://week-4-project-3.netlify.app/
 
 ![Project 1](./Project%203/Output.png)
 
