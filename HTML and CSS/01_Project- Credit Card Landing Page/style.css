@@ -1,0 +1,203 @@
+body{
+    background:#1a1817;
+    /* overflow: hidden; */
+}
+
+.nav-main{
+    display: flex;
+    height: 100px;
+    flex-direction: row;
+    gap: 300px;
+    align-items: center;
+    justify-content: center;
+    background-color: #1a1817;
+    /* position:fixed; */
+}
+ul{
+    display: flex;
+    font-display: row;
+    gap:40px;
+
+}
+ul>li{
+    list-style-type: none;
+    color: #ffffff;
+}
+ul>li:hover{
+    color: blueviolet;
+    font-weight: bold;
+    cursor: pointer;
+}
+.nav-third-div{
+    display: flex;
+    flex-direction: row;
+    gap: 20px;
+}
+.div-forth{
+    display: flex;
+    flex-direction: row;
+    color: #ffffff;
+    
+
+}
+.two{
+    position: relative;
+    right:25px;
+    
+}
+
+/* ...........started with second div.......... */
+
+
+.snd-div{
+    background-image: url("./pho/backCards.png");
+    background-repeat: no-repeat;
+    /* background-position: right; */
+    background-position: right;
+    background-size: 60% 100% ;
+    margin-left: 40px;
+    display: flex;
+    flex-direction: row;
+    color: #ffffff;
+
+}
+.first-line{
+    font-size: 70px;
+    font-family: 'Rubik Vinyl', cursive;
+}
+
+.second-line{
+    font-family: 'Prompt', sans-serif;
+}
+.div-fifth{
+    display: flex;
+    flex-direction: row;
+    margin-top: 40px;
+    gap: 20px;
+}
+.fourty-two{
+    font-size: 45px;
+}
+.snd-div-two{
+    margin-top: 40px;
+    margin-left: 700px;
+    /* padding: 20px; */
+    position:absolute;
+   /* right: 10px; */
+
+}
+.div-forth{
+    margin-top: 50px;
+}
+ .div-img:hover{
+font-weight: bolder;
+color: aquamarine;
+cursor: pointer;
+ }
+
+/* .........................third div stated */
+
+.third-a{
+    display: flex;
+    flex-direction: row;
+    gap: 100px;
+    margin-top: 130px;
+    align-items: center;
+    justify-content: center;
+    background-color: rgb(56, 55, 55);
+    height:200px;
+}
+/* 
+<!-- .........................forth portion of project............ --> */
+.forth-a{
+    display: grid;
+    grid-template-columns: 50% 50%;
+    margin-left: 30px;
+    margin-top: 40px;
+}
+.forth-b{
+    margin-left: 30px;
+    margin-top: 40px;
+    color: #5f5e5e;
+    margin-right: 30px;
+}
+.forth-c{
+    margin-left: 30px;
+    /* margin-top: 10px; */
+}
+
+/* <!-- .........................fifth portion of project............ --> */
+.fifth-a{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    gap: 140px;
+    margin-top: 170px;
+
+}
+
+
+
+.card-a{
+    /* height: 100px; */
+    text-align: center;
+    width: 200px;
+    height: 220px;
+    background-color: rgb(36, 35, 35);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    font-family: 'Bree Serif', serif;
+     font-size: 12px;
+    transition: 0.3s;
+    border: 1px solid white;
+    color:#ffffff;
+}
+.card-a:hover{
+    transform: translate(0, -20px);
+    background-color: rgb(65, 63, 63);
+
+}
+
+.card-b{
+    text-align: center;
+    width: 200px;
+    height: 220px;
+    background-color: rgb(36, 35, 35);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    font-family: 'Bree Serif', serif;
+     font-size: 12px;
+    transition: 0.3s;
+    border: 1px solid white;
+    color:#ffffff;;
+    
+}
+.card-b:hover{
+    transform: translate(0, -20px);
+    background-color: rgb(65, 63, 63);
+
+}
+.card-c{
+    text-align: center;
+    width: 200px;
+    height: 220px;
+    background-color: rgb(36, 35, 35);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    font-family: 'Bree Serif', serif; font-size: 12px;
+    transition: 0.3s;
+    border: 1px solid white;
+    color:#ffffff;
+}
+.card-c:hover{
+    transform: translate(0, -20px);
+    background-color: rgb(65, 63, 63);
+
+}
