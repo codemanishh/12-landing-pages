@@ -201,3 +201,55 @@ cursor: pointer;
     background-color: rgb(65, 63, 63);
 
 }
+
+/* <!-- .........................sixth portion of project............ --> */
+.sixth-a{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    background-color: #fff;
+    margin-top: 80px;
+}
+.six-b{
+    margin-top: 40px;
+    font-size: 50px;
+    font-family: 'Bree Serif', serif;
+
+}
+.six-c{
+    margin-top: 30px;
+    color: #5f5e5e;
+}
+
+.six-d{
+    position: relative;
+    bottom: 30px;
+}
+/* <!-- .........................seventh portion of project............ --> */
+.seven-a{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    margin-top: 80px;
+    gap: 60px;
+}
+.seven-b{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top: 70px;
+    gap: 80px;
+}
+.seven-bb,.seven-bc{
+    display: flex;
+    flex-direction: row;
+    width: 200px;
+    height: 220px;
+    background-color: rgb(36, 35, 35);
+    transition: 0.3s;
+    border: 1px solid white;
+    color:#ffffff;
+    gap: 80px;
+}
+
