@@ -45,6 +45,11 @@ ul>li:hover{
     right:25px;
     
 }
+.two:hover{
+    font-size:15px;
+    cursor: pointer;
+    color: #00ebb0;
+}
 
 /* ...........started with second div.......... */
 
