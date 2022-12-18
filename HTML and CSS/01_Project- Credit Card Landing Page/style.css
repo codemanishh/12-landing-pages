@@ -241,15 +241,66 @@ cursor: pointer;
     margin-top: 70px;
     gap: 80px;
 }
-.seven-bb,.seven-bc{
+.seven-bb{
     display: flex;
     flex-direction: row;
-    width: 200px;
-    height: 220px;
+    justify-content: center;
+    align-items: center;
+    gap: 40px;
+
+
+}
+.seven-bba{
+    width: 320px;
+    height: 160px;
     background-color: rgb(36, 35, 35);
     transition: 0.3s;
     border: 1px solid white;
     color:#ffffff;
-    gap: 80px;
+    padding: 23px;
+
+}
+.seven-bba:hover{
+    transform: translate(0, -20px);
+    background-color: rgb(65, 63, 63);
+
+}
+/* <!-- .........................eight portion of project............ --> */
+.hed-bottom{
+    margin-top: 650px;
+}
+.diamond{
+    display: flex;
+    flex-direction: row-reverse;
+     gap: 250px;
+     position: absolute;
+     top:3800px;
+}
+.upper{
+    position: absolute;
+     top: 3900px;
 }
 
+
+.newupdate{
+    justify-content: center;
+    align-items: center;
+    margin-top: 30px;
+
+}
+.text-part{
+    position: absolute;
+    top:4070px;
+   right: 360px;
+}
+.lower{
+    position: absolute;
+     top:3900px;
+}
+footer>div{
+    display: flex;
+    flex-direction: row;
+    margin-top: 850px;
+    padding: 50px;
+    gap: 260px;
+}
