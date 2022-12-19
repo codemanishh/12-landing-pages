@@ -1,0 +1,32 @@
+*{
+    margin: 0;
+    padding: 0;
+    background-color: #000000;
+}
+ul>li{
+    color: #ffffff;
+    list-style:none;
+    color: #a19a9a;
+    cursor: pointer;
+}
+ul{
+    display: flex;
+    flex-direction: row;
+    gap:30px;
+}
+button{
+    color: #ffffff;
+    background-color: rgb(0, 140, 255);
+    padding:12px;
+    width: 70px;
+    border-radius:20px;
+    cursor: pointer;
+}
+nav{
+    gap: 300px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    margin-top: 25px;
+}
