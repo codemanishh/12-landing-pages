@@ -30,3 +30,19 @@ nav{
     align-items: center;
     margin-top: 25px;
 }
+@media screen and (max-width: 380px) {
+   nav{
+    gap: 13px;
+    display: flex;
+    flex-direction: column;
+    margin-top: 25px;
+    margin-right: 150px;
+
+   }
+   ul,button{
+   display: flex;
+   flex-direction: column;
+   margin-right: 50px;
+   gap: 9px;
+  }
+}
