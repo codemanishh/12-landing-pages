@@ -49,7 +49,7 @@ nav{
 .font1{
     color: #ffffff;
     font-size: 55px;
-    text-align: center;
+   
 }
 .div2{
     display: flex;
@@ -58,4 +58,52 @@ nav{
     align-items: center;
     margin-top: 40px;
     gap: 120px;
+    margin-right: 80px;
+    margin-left: 50px;
+}
+.btn_of_div2-a{
+    color: #ffffff;
+    background-color: rgb(0, 140, 255);
+    padding:12px;
+    width: 120px;
+    border-radius:20px;
+    cursor: pointer;
+}
+.btn_of_div2-b{
+    color: #ffffff;
+    background-color:#000000;
+    padding:12px;
+    width: 120px;
+    border: 1px solid white;
+    border-radius:20px solid white;
+    cursor: pointer;
+    font-weight: bolder;
+}
+.btn_of_div2-a:hover{
+    background-color:#000000;
+    border: 0.2px solid white;
+    border-radius:20px solid white;
+
+}
+.btn_of_div2-b:hover{
+    background-color: rgb(0, 140, 255);
+    color:#ffffff;
+    border: 0.2px solid white;
+    border-radius:20px solid white;
+  
+}
+@media screen and (max-width: 380px) {
+    .div2{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        margin-top: 40px;
+        gap: 120px;
+    }
+    .font1{
+        color: #ffffff;
+        font-size: 30px;
+       
+    }
 }
