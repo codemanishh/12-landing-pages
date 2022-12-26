@@ -20,6 +20,14 @@ button{
     border-radius:20px;
     cursor: pointer;
 }
+button:hover{
+    background-color: #fff;
+    color: rgb(0, 47, 255);
+
+}
+ul>li:hover{
+    color:skyblue;
+}
 nav{
     gap: 300px;
     display: flex;
@@ -164,7 +172,8 @@ justify-content: center;
 gap: 270px;
 margin-top: 60px;
 background-color: rgb(63, 55, 55);
-padding: 10px;
+padding: 50px;
+
 }
 
 @media screen and (max-width: 380px) {
@@ -174,11 +183,12 @@ padding: 10px;
 /* ...........stated with div---004--...... */
 .div-4{
     background-color: #fff;
-    margin-top:px;
+    margin-bottom: 40px;
    display: flex;
    flex-direction: column;
-   gap: 40px;
+   gap: 60px;
    text-align: center;
+   font-family: 'Prompt', sans-serif;
 }
 .fifth-b{
     margin-top: 40px;
@@ -200,10 +210,10 @@ padding: 10px;
     flex-direction: column;
     align-items: center;
     justify-content: center;
-    font-family: 'Bree Serif', serif;
      font-size: 12px;
     transition: 0.3s;
     border: 1px solid rgb(14, 11, 11);
+    border-radius: 20px;
     color:#000000;
 }
 
@@ -212,3 +222,189 @@ padding: 10px;
     background-color: rgb(0, 0, 0);
     color: #f7f0f0;
 }
+.lrbtns{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    gap: 80px;
+    margin-top: -24px;
+    padding: 92px;
+
+}
+.lbtn{
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+
+}
+.lbtn2{
+    display: flex;
+    flex-direction: column;
+    gap: 6px;
+    font-size: 2px;
+    background-color: #000;
+    padding: 9px;
+    border-radius: 14px;
+}
+.l-btn{
+    width: 330px;
+    text-align: left;
+    color: #000000;
+    background-color: #fff;
+    border:1px solid #837c7c;;
+    border-radius:30px;
+    padding: 22px;
+    height: 65px;
+    font-size: 14px;
+}
+.l-btn:hover{
+    color: #ffffff;
+    background-color: rgb(0, 132, 255);
+}
+.l-btn2:hover{
+    color: #000000;
+    background-color: rgb(255, 255, 255);
+}
+.l-btn2{
+    width: 352px;
+    text-align: left;
+    color: #ffffff;
+    background-color: rgb(56, 50, 50);
+    border:1px solid #837c7c;;
+    border-radius:30px;
+    padding: 12px;
+}
+
+/* ...........stated with div---005 --...... */
+
+.div-5-a{
+    display: flex;
+    flex-direction: row;
+    margin-top: 40px;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    gap: 190px;
+    font-family: 'Prompt', sans-serif;
+}
+.arrow{
+    margin-top: 40px;
+}
+.div-5-b{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    gap: 70px;
+    margin-top: 50px;
+    padding: 54px;
+}
+.fst-box{
+    display: flex;
+    flex-direction: column;
+    background-color: #fff;
+    border: #000 solid 1px;
+    border-radius: 20px;
+    padding: 24px;
+    gap: 12px;
+    font-family: 'Prompt', sans-serif;
+}
+.blu{
+    color: #ffffff;
+    background-color: rgb(0, 132, 255);
+}
+.fst-gap{
+display:flex;
+flex-direction: column;
+gap: 16px;
+}
+
+
+
+/* <!-- ...........stated with div---0066666666666666--...... */
+.div-six{
+    display: flex;
+    flex-direction: column;
+    background-color: #fff;
+}
+.six-a{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    gap: 200px;
+    margin-right: 200px;
+    margin-left: 70px;
+    margin-top: 80px;
+    font-family: 'Prompt', sans-serif;
+}
+.ratings{
+    background-color: #000000;
+    width: 410px;
+    color: #ffffff;
+    padding: 10px;
+    border: 1px solid #ffffff;
+    border-radius: 22px;
+    font-family: 'Prompt', sans-serif;
+    margin-top: 30px;
+}
+.rating-a{
+    display: flex;
+    flex-direction: column;
+    gap: 17px;
+}
+.six-b{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    gap: 140px;
+    margin-bottom: 70px;
+}
+.ratings:hover{
+    transform: translate(0, -20px);
+    background-color: rgb(255, 255, 255);
+    color: #000000;
+    border: 2px solid red;
+    cursor: pointer;
+
+}
+/* <!-- ...........stated with div---777777777777777777777777--...... --> */
+
+.help-section{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    gap: 160px;
+}
+.ull{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+   
+}
+ .contect-data{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    gap: 10px;
+    border-radius: 30px;
+    background-color: rgb(56, 51, 51);
+    padding: 20px;
+    width: 1000px;    
+
+}
+.contect{
+    margin-top: 40px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+ input{
+    border: 1px solid rgb(0, 0, 0);
+    border-radius: 39px;
+    height: 35px;
+    width: 300px;
+    background-color: rgb(66, 62, 62);
+ }
+ #btnls{
+    width: 130px;
+ }
