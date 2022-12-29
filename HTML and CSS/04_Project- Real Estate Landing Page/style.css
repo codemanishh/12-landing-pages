@@ -1,0 +1,234 @@
+body{
+    margin: 0px;
+    padding: 0px;
+}
+.img-for-position{
+position: relative;
+}
+.nav-total{
+    height: 700px;
+    width: 100%;
+    background-color: rgb(4,4,4,.5);
+    position: absolute;
+    top: 0px;
+}
+
+
+nav{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    gap: 400px;
+    margin-top: 20px;
+    color: #ffffff;
+}
+.ul-nav,li{
+    list-style: none;
+    display: flex;
+    flex-direction: row;
+    gap: 60px;
+    cursor: pointer;
+} 
+ button{
+    width: 170px;
+    height: 40px;
+    font-size: 15px;
+    background-color:#375cc2;
+    color: #ffffff;
+    border: 1px solid #ffffff;
+    border-radius: 23px;
+}
+button:hover{
+    background-color: #fff;
+    color: #375cc2;
+}
+.div-1{
+    display: flex;
+    flex-direction: column;
+    margin-top: 60px;
+    margin-left: 60px;
+    gap: 30px;
+}
+
+.logo-4-seciton-a{
+display: flex;
+flex-direction: row;
+justify-content: center;
+align-items: center;
+position: absolute;
+bottom: -132px;
+}
+
+.logo-4-section{
+    padding: 32px;
+    display: flex;
+    flex-direction: row;
+    gap: 149px;
+    background-color: rgb(210, 241, 238);
+    width: 957px;
+    margin-left: 139px;
+    border: 0px solid white;
+    border-radius: 114px;
+
+}
+.image{
+    border: 1px solid #ffffff;
+    border-radius: 18px;
+}
+.card-1{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.image-below{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+     background-color: rgb(206, 250, 205);
+     width: 230px; height:70px;
+     border: 1px solid #ffffff;
+    border-radius: 18px;
+    position:relative;
+    bottom: 39px;
+    gap: 26px;
+
+    
+}
+.btn-cards{
+    width: 80px;
+    font-size:12px;
+    height: 35px;
+    background-color: rgb(105, 73, 221);
+}
+.main-container-1{
+    display:flex;
+    flex-direction: row;
+    justify-content: center;
+    gap: 34px;
+}
+.extra-mt-1{
+    margin-top: 85px;
+}
+.extra-mt-2{
+    margin-top: 192px;
+}
+.main-container-2{
+    display:flex;
+    flex-direction: row-reverse;
+    justify-content: center;
+    gap: 34px;
+}
+.fet1{
+    position: relative;
+}
+.fearured1{
+    position:absolute;
+    left: 79px;
+    top: -34px;
+}
+.div-6{
+    display: flex;
+    flex-direction:row;
+    gap: 351px;
+    margin-top: 90px;
+}
+.div-7{
+    display: flex;
+    flex-direction: row-reverse;
+    gap: 294px;
+    margin-top: 90px;
+
+
+}
+.fearured2{
+    position:absolute;
+    right: 79px;
+    top: -34px;
+}
+/* <!-- ............  SECOND LAST DIV .................   --> */
+.secondlast{
+    background-color: #375cc2;
+    margin: 20px 100px;
+    border-radius: 58px;
+    padding: 50px 140px ;
+    margin-top: 90px;
+}
+.secondlast>h1,
+.secondlast>p{
+    color: rgb(146, 27, 120);
+}
+.secondlast-a{
+
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    gap: 90px;
+}
+.secondlast-b,input{
+    display: flex;
+    flex-direction: row;
+    background-color: #c25337;
+    height:30px;
+    width: 250px;
+    border: 0px solid rgb(255, 255, 255);
+    border-radius: 23px;
+
+}
+
+.fake-input { 
+    position: relative; width:300px;
+ }
+.fake-input input { 
+    border:none; background-color:rgba(30, 0, 161, 0.281); 
+    display:block; 
+    width: 300px; 
+    height: 40px;
+    box-sizing: border-box 
+}
+.fake-input img { 
+    position: absolute; top: 2px; right: 5px 
+}
+
+  
+
+
+.last-button{
+    background-color: #fff;
+    color: #375cc2;
+    font-weight: bolder;
+
+}
+.last-button:hover{
+    background-color: #375cc2;
+    color: #ffffff;
+
+}
+
+/* footer */
+.li-footer{
+    display: flex;
+    flex-direction: row;
+    color: rgb(117, 108, 108);
+    font-size: 20px;
+    gap: 71px;
+}
+footer{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    margin-top: 100px;
+    gap: 500px;
+}
+.fotter-ul{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    cursor: pointer;
+    font-family: 'Aleo', serif;
+}
+li:hover{
+    color: #375cc2;
+}

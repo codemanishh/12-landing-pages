@@ -250,12 +250,11 @@ background-color: rgb(5, 255, 172);
 }
 .neww{
     height: 464px;
-    width: 100%;
-    background: rgba(56, 67, 87,.5); 
+    width: 99%;
+    background: rgba(56, 67, 87,.5);
     bottom: 100px;
-    position:absolute;
-    top: 3447px;
-    z-index: 12d;
+    position: absolute;
+    top: 3431px;
 }
 
 
