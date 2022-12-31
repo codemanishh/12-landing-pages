@@ -1,16 +1,5 @@
 ## Full Stack JavaScript 2.0
 
-## Week 03
-
-[Link ](./Week%2003/readme.md)
-
----
-
-## Week 04
-
-[Link](./Week%2004/readme.md)
-
-
 ## Extra HTML And CSS Assignemnt
 
 ### [Project 1](./HTML%20and%20CSS/01_Project-%20Credit%20Card%20Landing%20Page)
@@ -24,3 +13,17 @@
 ### [Project 5](./HTML%20and%20CSS/05_Project-%20Beats%20Landing%20Page)
 
 ### [Project 6](./HTML%20and%20CSS/06_Project-%20Data%20Analytics%20Landing%20Page)
+
+
+
+
+## Week 03
+[Link ](./Week%2003/readme.md)
+
+---
+
+
+## Week 04
+[Link](./Week%2004/readme.md)
+
+

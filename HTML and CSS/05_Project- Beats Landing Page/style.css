@@ -22,6 +22,11 @@ div>ul{
     margin-top: 40px;
     align-items: center;
 }
+div>ul>li:hover{
+color: #fff;
+cursor: pointer;
+
+}
 button{
     height: 40px;
     width: 100px;
@@ -30,6 +35,12 @@ button{
     border: 0px solid #0F0F10;
     border-radius: 9px;  
     font-family: 'Inter', sans-serif;
+}
+button:hover{
+    background-color: #fff;
+    color: #a3a2a2;
+cursor: pointer;
+
 }
 .div-1{
     display: flex;
@@ -200,12 +211,65 @@ gap: 30px;
 .material-symbols-outlined {
     color: white;
 }
-
+.material-symbols-outlined:hover{
+    background-color: pink;
+}
 .shopping-container {
     background-color: black;
     padding: 5px;
     border-radius: 7px;
 }
+.div-5a{
+    display: flex;
+    flex-direction: column;
+    background-color: #0F0F10;
 
 
+}
+.div-5-ab{
+    display: flex;
+    flex-direction: row;
+    margin: -25px 272px;
+}
+footer{
+    background-color: #0F0F10;
+    color: #e7e5e5;
+    display: flex;
+    flex-direction: row; 
+    justify-content: center; 
+    gap: 319px;
 
+}
+
+.lst-btn{
+    width: 200px;
+    display:flex;
+     flex-direction:row;
+      gap: 76px;
+      justify-content: center;
+      align-items: center;
+      padding: 25px;
+      width: 250px;
+}
+.lst-btn:hover{
+    background-color:#1E1E21 ;
+
+}
+ul>li{
+    color: #a3a2a2;
+}
+.btn-lst-div{
+    display: flex;
+                flex-direction: row;
+                gap: 20px;
+                justify-content: center;
+                align-items: center;
+                background-color: #0F0F10;
+                padding:14px;
+                border: 0px solid;
+                border-radius: 19px;
+                gap: 25px;
+}
+.btn-lst-div:hover{
+    background-color: rgb(109, 97, 97);
+}
