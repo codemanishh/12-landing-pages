@@ -1,9 +1,211 @@
 *{
     margin: 0px;
-    padding: 0px;
-}
+    padding: 0px;}
 nav{
     margin: 0px;
     padding: 0px;
-    background-color: #000000;
+    background-color: #0F0F10;
+    color: #ffffff;
+    display: flex;
+    flex-direction: row;
+    gap: 515px;
+    justify-content: center;
+    position: relative;
+    font-family: 'Inter', sans-serif;
+
 }
+div>ul{
+    display: flex;
+    flex-direction: row;
+    list-style: none;
+    gap: 30px;
+    margin-top: 40px;
+    align-items: center;
+}
+button{
+    height: 40px;
+    width: 100px;
+    background-color:#1E1E21 ;
+    color: #ffffff;
+    border: 0px solid #0F0F10;
+    border-radius: 9px;  
+    font-family: 'Inter', sans-serif;
+}
+.div-1{
+    display: flex;
+    flex-direction: row;
+    gap: 30px;
+    background-color: #0F0F10;
+    justify-content: center;
+    font-family: 'Inter', sans-serif;
+    color: #e7e5e5;
+
+}
+.div-1-img{
+    position: absolute;
+    bottom: 235px;
+    left: 190px;
+    
+}
+.div-1-right-portion{
+    margin-left: 469px;
+    margin-top: 51px;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    padding: 10px;
+}
+.btn-div-1{
+    width: 200px;
+    height: 50px;
+    display: flex;
+    gap: 10px;
+    justify-content: center;
+    align-items: center;
+}
+.four-logo{
+    display: flex;
+    flex-direction: row;
+    gap: 90px;
+    background-color: #0F0F10;
+    justify-content: center;
+    align-items: center;
+    /* margin-top: 90px; */
+    padding: 74px;
+}
+/* <!-- ---------         div-2    -----------------  --> */
+.img-div-2{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #0F0F10;
+
+}
+/* <!-- ---------         div-2 part-2      -----------------  --> */
+
+.div-2-part-2{
+    background-color: #0F0F10;
+    display:flex;
+    flex-direction: row;
+    justify-content: center;
+    gap: 40px;
+    font-family: 'Inter', sans-serif;
+
+}
+.div-2-part-2-a{
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+    margin-top: 30px;
+}
+/* <!-- ............................ div-3---------------------  --> */
+.div-3-a{
+    padding: 90px;
+}
+.div-3-b{
+    display:flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    gap: 100px;
+    background-color: #0F0F10;
+    color: #a3a2a2;
+    font-family: 'Quicksand', sans-serif;
+
+}
+.div-3-b-a{
+display: flex;
+flex-direction: column;
+gap: 30px;
+}
+/* <!-- ----------------- div-4 --------------------  --> */
+.div-4-main{
+    background-color: #0F0F10;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+.div-4{
+    display: flex;
+    flex-direction: row;
+    margin-top: 90px;
+    gap: 96px;
+    background-color: #1E1E21;
+    border: 0px solid #1E1E21;
+    border-radius: 17px;
+    padding: 22px 128px;
+}
+.div-4a{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    justify-content: center;
+    /* align-items: center; */
+
+}
+.btn-div-4{
+        background-color:#0F0F10 ;
+}
+
+/* <!-- ................... div 5 -----------------   --> */
+.div-5{
+    display: flex;
+    justify-content: center;
+    background-color: #0F0F10;
+    padding: 80px;
+}
+
+/* <!-- ......................  div-5-a  ......................... --> */
+
+.container {
+    width: 150px;
+    height: auto;
+    margin: 80px auto;
+    background-color: rgb(35, 35, 35);
+    border-radius: 7px;
+    padding: 10px 20px;
+}
+
+.imgsection {
+    position: relative;
+    top: -87px;
+    text-align: center;
+}
+
+.hello {
+    height: 100px;
+}
+
+.imgsection>img {
+    width: 120px;
+    height: auto;
+}
+
+.content {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.content>div>h3 {
+    margin: 0px;
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 20px;
+    font-weight: 400;
+    margin-bottom: 6px;
+}
+
+.material-symbols-outlined {
+    color: white;
+}
+
+.shopping-container {
+    background-color: black;
+    padding: 5px;
+    border-radius: 7px;
+}
+
+
+
