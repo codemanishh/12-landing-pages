@@ -1,0 +1,292 @@
+*{
+margin: 0px;
+padding: 0px;
+}
+nav{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    gap: 160px;
+    margin-top: 20px;
+    justify-content: center;
+    align-items: center;
+    font-family: 'Poppins', sans-serif;
+    
+}
+div>ul{
+    display: flex;
+    flex-direction: row;
+    list-style:none;
+    gap: 39px;
+    margin-top: 20px;
+    justify-content: center;
+    align-items: center;
+}
+li:hover{
+color: #722ED1;
+font-weight: bolder;
+cursor: pointer;
+}
+button{
+    height:30px;
+    width: 120px;
+    border: 1px solid #722ED1;
+    background-color: #EAF5FF;
+    color: #722ED1;
+    border-radius: 20px;
+    
+}
+button:hover{
+    background-color:#722ED1 ;color:#ffffff;
+    cursor: pointer;
+}
+/* div1111111111    */
+.div-1{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    font-family: 'Poppins', sans-serif;
+    margin-top: 72px;
+    gap: 78px;
+}
+.v31-div-a{
+    color:#722ED1;
+    border: 0px solid #722ED1;
+    border-radius: 18px;
+    background-color: #F7F1FF;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 250px;
+    height: 36px;
+}
+.bgc-nav{
+    position: relative;
+}
+.bgc{
+    position: absolute;
+    top: 0px;
+    background-color:rgb(234, 245, 255,8);
+    height: 700px; width:100%;
+    clip-path: polygon(100% 0, 100% 65%, 0 97%, 0 0);
+}
+.div-1a{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+.btn-div-1{
+    display: flex; flex-direction: row; gap: 10px;
+}
+.btn-2{
+    background-color:#ffffff;color:#722ED1;
+}
+.btn-2:hover{
+    background-color:#722ED1;color:#ffffff;
+    cursor: pointer;
+}
+.btn-1{
+    background-color:#722ED1;color:#ffffff;
+}
+.btn-1:hover{
+    background-color:#ffffff;color:#722ED1;
+
+}
+
+/* <!-- ............ div + nav ....... completed .......    --> */
+.div-2{
+    margin-top: 217px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 30px;
+    font-family: 'Poppins', sans-serif;
+    text-align: center;
+
+}
+.div-2a{
+    background-color: #e4d9f1;
+    border: 0px solid red;
+    border-radius: 18px;
+    width: 162px;
+    height: 37px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    gap: 29px;
+    align-items: center;
+    color: #722ED1;
+    font-family: 'Poppins', sans-serif;
+}
+/* <!-- .............. div 3 .......................... --> */
+
+.div-3{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    margin-top: 20px;
+    gap: 30px;
+}
+.div-3a{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    color: #585a5a;
+}
+/* <!-- .......................  div 4 staring ........   --> */
+.div-4{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    font-family: 'Poppins', sans-serif;
+    gap: 100px;
+    margin-top: 100px;
+
+}
+.div-4a{
+    background-color: #e4d9f1;
+    border: 0px solid red;
+    border-radius: 18px;
+    width: 251px;
+    height: 37px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    gap: 29px;
+    align-items: center;
+    color: #722ED1;
+}
+.div-4ab{
+    display: flex;
+    flex-direction: column;
+   gap: 25px;
+}
+/* <!-- ................ div 5 5 5..... staring ......  --> */
+.div-5{
+    margin-top: 100px;
+    flex-direction: row-reverse;
+    gap: 80px;
+}
+/* <!-- ................   div 66 666 66 .........  --> */
+.div-6-main{
+    position: relative;
+margin-top: 200px;
+}
+.uper-greeny{
+    position: absolute;
+    top: -228px;
+    background-color:rgb(234, 245, 255,.8);
+    height: 900px; width:100%;
+    clip-path: polygon(100% 0, 100% 61%, 0 88%, 0 25%);
+}
+
+.div-6{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap:9px;
+    align-items: center;
+    margin-top: 20px;
+    text-align: center;
+    font-family: 'Poppins', sans-serif;
+    position: relative;
+
+}
+.img-div-6{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    gap: 133px;
+    align-items: center;
+    margin-top: 20px;
+}
+
+input{
+    width: 250px;
+    height: 30px;
+    border: 1px solid rgb(121, 121, 121);
+    border-radius: 6px;
+
+}
+.div-7{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    margin-top: 318px;
+    gap: 275px;
+    font-family: 'Poppins', sans-serif;
+
+}
+.content{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    position: relative;
+    background-color: #fff;
+    right: -26px;
+    padding: 2px;
+    padding: 70px;
+    top: -70px;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+}
+.bgc-login{
+    width: 450px;
+    height: 409px;
+    background-color: rgb(155, 151, 151);
+    position:absolute;
+}
+.img-div-7a{
+    display: flex;
+    flex-direction: row;
+    gap: 100px;
+}
+.img-div-7b{
+    display: flex;
+    flex-direction: column;
+    gap: 100px;
+}
+.div-7-left{
+    display: flex;
+    flex-direction: column;
+    gap: 20px ;
+}
+/* <!-- _____ div 8 starting _________________ --> */
+
+footer{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    gap: 49px;
+    padding: 60px;
+    background-color: rgb(220, 231, 243);
+    font-family: 'Poppins', sans-serif;
+
+}
+.img-footer{
+    display: flex;
+    flex-direction: row;
+    padding: 12px;
+    gap: 17px;
+
+}
+li{
+    list-style: none;
+}
+.footer-last{
+    position: relative;
+}
+.footer-abs{
+    position: absolute;
+    left: 206px;
+    top: 7px;
+}
